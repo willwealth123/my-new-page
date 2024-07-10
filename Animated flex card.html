@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://127.0.0.1:5500/Animated%20flex%20card.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated flex file</title>
+    <link rel="stylesheet" href="./Animated flex card.css">
+    <link rel="stylesheet" href="./Animated flex card_files/califonia.css">
+ </head>
+ <body>
+   <div class="willwealth">
+
+
+      <!-- <video autoplay loop muted plays-inline>
+          <source src="myimages/Lady Dancing.mp4" type="">
+      </video> -->
+      <video class="back-video" autoplay loop muted plays-inline src="./myimages/Lady Dancing.mp4" type="video/mp4"></video>
+
+      <nav>
+          <img src="./Animated flex card_files/logo.jpg" class="logo">
+          <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">BEACHES</a></li>
+              <li><a href="#">POPULAR PLACE</a></li>
+              <li><a href="#">CONTACT US</a></li>
+          </ul>
+      </nav>
+      <div class="content">
+          <h1>california</h1>
+          <a href="#">Explore</a>
+
+      </div>
+  </div>
+   <div class="wrapper">
+      <div class="container">
+         <input type="radio" name="slide" id="c1" checked="">
+          <label for="c1" class="card">
+            <div class="row"><div></div>
+               <div class="icon">1</div>
+               <div class="description">
+                  <h4>Beach</h4>
+                  <p>The site of beach and it's beauty in the eyes of it's beholder explains the significant of nature</p>
+               </div>
+            </div>
+          </label>
+               <input type="radio" name="slide" id="c2">
+                <label for="c2" class="card">
+                  <div class="row">
+                     <div class="icon">2</div>
+                     <div class="description">
+                        <h4>Love</h4>
+                        <p>Love is one essential element needed for a healthy living</p>
+                     </div>
+                  </div>
+                </label>
+                     <input type="radio" name="slide" id="c3">
+                      <label for="c3" class="card">
+                        <div class="row">
+                           <div class="icon">3</div>
+                           <div class="description">
+                              <h4>Rightful people</h4>
+                              <p>To love and to be loved back only take place when meeting the right person</p>
+                           </div>
+                        </div>
+                      </label>
+                           <input type="radio" name="slide" id="c4">
+                            <label for="c4" class="card">
+                              <div class="row">
+                                 <div class="icon">4</div>
+                                 <div class="description">
+                                    <h4>Beautiful Color</h4>
+                                    <p>love is only exciting and colourful when finding happiness</p>
+                                 </div>
+                              </div>
+                            </label>
+      </div>
+   </div>
+    
+ <!-- Code injected by live-server
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script> -->
+
+ </body>
+ </html>
